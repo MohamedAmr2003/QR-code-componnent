@@ -7,7 +7,7 @@
 }
 
 body{
-background-color: var(--Grayish-color);
+background-color: var(--Lightgray-color);
 font-family: 'Cairo', sans-serif;
 font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif;
@@ -27,9 +27,10 @@ p{
 
 .qr .box{
     background-color: var(--white-color);
-   margin: 200px auto;
-   border-radius: 20px;
-   width: 200px;
+    margin: 200px auto;
+    border-radius: 20px;
+    width: 300px;
+    height: 60vh;
 }
 
 .qr .box div{
@@ -39,7 +40,7 @@ justify-content: center;
 
 .qr .box img{
     border-radius: 10px;
-    width: 150px;
+    width: 250px;
     margin: 20px;
 }
 
@@ -51,15 +52,14 @@ justify-content: center;
 
 
 .qr .box .text h3{
-    font-size: 10px;
-    text-transform: capitalize;
+    font-size: 20px;
 color: var(--Darkblue-color);
 }
 
 .qr .box .text p{
-    font-size: 10px;
+    font-size: 15px;
     font-weight: normal;
-    color: var(--Lightgray-color);
+    color: var(--Grayish-color);
     font-weight: bold;
 }
 
